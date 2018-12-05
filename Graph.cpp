@@ -22,7 +22,7 @@ bool Graphmtx::removeEdge(string s, string n)//É¾³ý±ß
 }
 bool Graphmtx::removeVertex(string n)//É¾³ý¶¥µã
 {
-
+    cout<<"tangwei"<<;
 	int v = zhuan(n);
 	if (v < 0 && v >= numVertices)
 		return false;
